@@ -20,7 +20,9 @@ class User(BaseModel):
     Age:int
     
 #Creamos un objeto en forma de lista con diferentes usuarios (Esto sería una base de datos)  
-users_list= [User(id=1, Survived="0", Pclass="3", Name="Braund,Mr. Owen Harris", Sex="Male", Age=22)]
+users_list= [User(id=1, Survived="0", Pclass="3", Name="Braund,Mr. Owen Harris", Sex="Male", Age=22),
+            
+]
 
 
 #***Get
